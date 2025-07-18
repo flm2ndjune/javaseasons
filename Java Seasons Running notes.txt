@@ -540,9 +540,72 @@ Type mismatch: cannot convert from int to short
 The literal 2147483648 of type int is out of range
 
 
+--------------------------------------------------
+Day 8: 18th July  - Friday  
+--------------------------------------------------
 
 
+Methods : 
+
+- set of instructions or code 
+- to perform a specific task 
+
+- reusability 
+- code clarity
+- avoids code redundancy 
+- length of code reduces 
+- easy debugging of program 
+
+syntax :
+
+access-specifier access-modifier return-type methodName(arguments)
+{
+//body of method 
+local declarations;
+statements;
+return value;
+}
+
+Note : for return-type void there is no need of return statement 
+
+									
+									
+													methods 
+									
+								Instance/Non-static												Static 
 
 
+1. Def ?					without static keyword 							          method with static keyword							
+							(<default>/final/ abstract / transient/volatile etc )
+
+2. when memory ?			while creation of objects									.class file loading 
+
+3. memory is allocated ?    Heap Area													class Area / Method Area
+
+
+4. calling style ?          objectName.methodName										ClassName.methodName
+
+
+5. scope or life time ?    till the last usage of object 							   till the end of program
+					
+									
+									
+Scanner : java.util
+
+next():String 
+
+
+gopichandkowtarapu@gmail.com
+
+Newpass123369
+
+
+https://github.com/flm2ndjune/javaseasons
+
+
+								
+									
+									
+									
 
 

@@ -14,7 +14,7 @@ public class MethodsDemo1 {
 		System.out.println("Good evening ...");
 		
 		Scanner obj2=new Scanner(System.in);
-		String name2=obj1.next();
+		String name2=obj2.next();
 		System.out.println("hi "+name2+"..");
 		System.out.println("how are you ???");
 		System.out.println("Good evening ...");
