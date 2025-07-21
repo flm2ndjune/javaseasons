@@ -670,11 +670,49 @@ POP - Procedure Oriented Programming
 OOP - Object Oriented Programming
 
 
-Object :
 
 
+-> "Simula" first OOP 
+-> "Small Talk" is First Truely OOP 
+
+1)Object
+2)Class
+3)Encapsulation
+4)Polymorphism
+5)Inheritance
+6)Abstraction
+
+Object : is anything that exists 
+
+In Java, an object is an instance of a class that represents a real-world entity
+
+3 characteristics for object:
+
+
+state : represents data or attributes of an object 
+
+variables 
+
+Behaviour : represents the operations/tasks of an object 
+
+methods 
+
+Identity : a unique ID used by JVM to identify object 
+
+Marker : (state /variables : shape , length , color etc ..)
+		 (behaviour / methods :  writing on biard , marking something on parcel etc..)
+		 
+Dog : (state /variables : gender , breed , color etc ..)
+		 (behaviour / methods :  eating , barking sleep etc..)
+		 
+AccountNumber : (state /variables : length of digits)
+		 (behaviour / methods :  funds transfer, account statements etc..)
+		 
 Class : 
 
+a logical entity
+
+is a Blueprint/template  from which you can create object 
 ===========================
 Object creation techniques 
 ===========================
