@@ -12,6 +12,7 @@ public class MethodsModelsDemo1 {
 		int res=obj1.natSum4(100);
 		System.out.println("Sum of Natural numbers is "+res);
 
+		
 	}
 
 }

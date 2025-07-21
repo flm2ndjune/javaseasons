@@ -1,0 +1,2101 @@
+--------------------------------------------------
+Day 1 : 2nd June  - Monday
+--------------------------------------------------	
+
+Full Stack Testing 
+
+Software :
+
+Types of Softwares :
+
+1. System softwares
+
+e.g OS , Device Drivers , Utility Programs (anti virus)
+
+2. Programming softwares
+
+e.g compilers, debugging tools , Code Editors , IDEs (eclipse , IntelliJ etc)
+
+
+3. Application Softwares
+
+e.g web apps , mobile apps (android or iOS), mainframe , silverlite , etc ..
+
+Testing:
+
+It's a process of checking developed s/w is working as per client business requirements or not.
+
+to find defects 
+
+Prime motto of testing is to deliver a quality product and to deliver a risk free product 
+
+------------------
+what to test in now-a-days application ?
+
+1) Functionalities 
+2) GUI 
+3) Usability
+4) Load 
+5) Performance 
+6) Security 
+7) Compatability etc ..
+
+--------------------------------------------------
+Day 2 : 3rd June  - Tuesday
+--------------------------------------------------	
+
+Manual Testing : 
+
+Module 1 : Software Testing Concepts 
+Module 2 : Software Testing Project 
+             - Test Management tools 
+Module 3 : Agile Methodology (Scrum Framework) and JIRA project management tool 
+Module 4 : SQL 			 
+
+
+Module 1 : Software Testing Concepts 
+
+						Functional Testing
+								
+			Manual 						Automation 											
+								
+								
+test data :
+
+Login 
+
+username : reyaz0806
+password : reyaz123
+
+								
+Terminologies :
+
+1. Project :  If a software application designed for a specific customer 
+
+TCS doing a project for Bank of America (using Fidelity product)
+
+2. Product : if a software application is designed for multiple customers 
+e.g NCR for ATM , Fidelity for Banking , Infosys Finnacle 
+
+						
+Error : any incorrect human ation that produes wrong results 
+
+deposit 
+ New Balance = Current Balance + deposit amount
+ New Balance = Current Balance - deposit amount
+
+Defect / Bug /Fault / Issue :  
+
+deviation b/n expected behaviour of the s/m to actual behaviour 
+
+Failure : If end user identifis a problem/mistake while using the application
+
+why do a s/w application will have defects ?
+
+1. Incorrect requirements
+2. Wrong desing
+3. Wrong or poor coding 
+4. Complex Architecture
+5. work and time pressure 
+6. Frequently changing business requirements
+
+--------------------------------------------------
+Day 3 : 4th June  - Wednesday
+--------------------------------------------------	
+
+Now-a-days Testing :
+
+Testing:
+
+It's a process of checking are we developing right s/w or not and also
+chekcing developed s/w is working as per client business requirements or not.
+
+Testing =  Verification + Validation 
+
+Positve Testing : 
+
+Negative Testing : 
+
+
+------------------------------
+Role/Duties of Tester
+------------------------------
+
+1) understand AUT (App under Test) / Project 
+   Domain Knowledge 
+2) Formal Testing ( Writing the TC's and Executing TC's) 
+3) Adhoc Testing (Informal Testing / No TC's)
+4) Finding defects & Report to Developers 
+5) ReTesting and Regression Testing 
+6) develop automation scripts
+7) execute automation scripts 
+8) Analyse results 
+9) publish test reports 
+
+
+==============================================
+Software Testing Principles
+==============================================
+
+1. Exhaustive testing is impossible
+2. Defect clustering
+3. Pesticide Paradox 
+4. Early Testing 
+5. Testing is application dependent or Situation Dependent
+6. Testing should presence of defects
+7. Absence of defects is fallacy 
+
+--------------------------------------------------
+Day 4 : 5th June  - Thursday
+--------------------------------------------------
+
+1. Exhaustive testing is impossible
+
+2. Defect clustering 
+
+3. Pesticide Paradox
+
+4. Early Testing  
+
+5. Testing is application dependent or Situation Dependent
+
+6. Testing should presence of defects
+
+7. Absence of defects is fallacy 
+
+=======================================
+Software Development Life Cycle (SDLC)
+=======================================
+
+
+						SDLC Models
+					
+					
+		Sequential 				Incremental /Iterative 
+	1) Waterfall				1) RAD Model 
+	2) V model					2) Protype Model
+								3) Spiral
+								4) Agile Model 
+		
+--------------------------------------------------
+Day 5 : 6th June  - Friday
+--------------------------------------------------
+					
+1) Waterfall Model 
+
+-> when requirements are clear 
+
+->  here each phase is freezed 
+
+2) V-Model 
+
+-> when requirements are not clear 
+
+
+3) RAD Model 
+Rapid Application Development model 
+
+-> mostly choose for big projects to be completed in short time 
+
+4) Protype Model
+
+will be adopted in 2 scenarios
+
+i) if customer providing a reference application
+ii) if customer is not clear of requirements
+
+
+5) Spiral Model 
+
+-> when requirement are dependent on other requirements
+
+				
+--------------------------------------------
+Software  Testing Approaches 
+
+Static Testing 
+
+	Reviews
+1) Formal Reviews 
+  i) Inspection 
+   if a formal review carried out while executing a task 
+  ii) Audit : 
+   if a formal review carried out after execution of task 
+2) Informal Reviews 	
+
+Dynamic Testing 
+
+Unit Testing 
+
+Integration Testing 
+
+--------------------------------------------------
+Day 6 : 9th June  - Monday
+--------------------------------------------------
+					
+System Testing : 
+
+Functional system testing : 
+
+1) Smoke Testing 
+
+It is akind of quick test or rough test perfomed on given application 
+to decide whether it is eligible for further detailed testing or not 
+
+
+
+-> we have to check all major functionalities are available
+-> we have to check the given application consistently operable or not 
+
+
+2) Formal Testing or Detailed testing 
+
+we will execute all the TC's 
+
+here we follow proper documentation 
+
+3) Adhoc Testing 
+
+No TC's
+
+-> for small scale projects 
+
+4) Priority based testing 
+
+
+It's a kind of formal testing ,
+
+it's a process of deciding what to test first, what to test next and what to test last
+(i.e in some order)
+
+
+5) Retesting 
+
+it's a process of validating reported defects are correctly resolved or not in the modified build 
+
+6) Regression Testing 
+
+it's a process of validating other functionalities is there any side effects in them due to modified build 
+
+
+7) Sanity Testing 
+
+it's a process of validating other functionalities(subset of regression) when bug fixes are done 
+in stable build 
+
+
+6) End - to - end testing 
+
+checking overall functionalities from begining to end 
+
+- final build 
+
+Special Functional Testing Types :
+
+1. Benchmark testing 
+
+2. Exploratory testing 
+
+3. Monkey or Gorilla Testing or zigzag (Adhoc testing)
+
+
+u_0_0_DN
+
+u_0_0_73
+
+
+--------------------------------------------------
+Day 7 : 10th June  - Tuesday
+--------------------------------------------------
+
+
+Non-Functional system testing :  					
+
+1) User Interface Testing 
+
+UX designs ==> UI components 
+
+2) Accessibity testing 
+
+3) Performance Testing 
+
+-> Reponsiveness
+-> stability 
+
+i) Reponse time
+ii) Processing time 
+iii) Concurrent user volume 
+
+3.1 ) Load Testing 
+
+3.2) Stress Testing 
+
+3.3) Soak Testing 
+
+3.4) Volume Testing 
+
+3.5) Spike Testing 
+
+
+4) Security Testing 
+
+-> authentication
+-> authorization 
+-> data encription
+-> SQL injections 
+
+5) Globalization Testing or Internationalization Testing or I18N Testing
+
+7)Localization Testing or L10N Testing 
+
+8) Recovery Testing 
+
+9) Installation Testing 
+
+10) UnInstalaltion TEsting 
+
+11) Compatability Testing 
+
+-> different browsers
+-> different OS 
+
+-----------------------------------
+
+UAT TEsting or User Acceptance Testing 
+
+
+Dev Environment https://dev1.adactinhotelapp.com/
+Test Environment https://test1.adactinhotelapp.com/
+UAT Environment  https://uat1.adactinhotelapp.com/
+Prod Environment https://adactinhotelapp.com/
+
+1. Alpha Testing 
+
+company premises 
+
+2. Beta Testing 
+
+Customer premises
+
+
+--------------------------------------------------
+Day 8 : 11th June  - Wednesday
+--------------------------------------------------
+
+*************************
+Module -2
+
+Software Testing Project 
+**************************
+
+1)  Hotel Booking 
+https://adactinhotelapp.com/ 
+
+or https://adactinhotelapp.com/HotelAppBuild2/
+
+or 
+
+https://phptravels.net/
+
+
+2) Banking Project 
+
+https://parabank.parasoft.com/parabank/index.htm
+
+3) HRM Project
+
+https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+
+
+-------------------------------------------------
+Software Testing Life Cycle 
+-------------------------------------------------
+
+1) Test Planning 
+
+Test Strategy 
+-> high level document prepared by management 
+
+Test Plan 
+Detailed work plan 
+IEEE829 will have following sections or components 
+
+1) Project Overview 
+2) Document references 
+3) Scope of Testing 
+	3.1 In Scope (features to be tested )
+	3.2 Out Scope (features not to be tested)
+4) Test Strategy (optional)
+5) Test Environments 
+    	https://tst1.adactinhotelapp.com/
+		https://tst2.adactinhotelapp.com/
+		https://tst3.adactinhotelapp.com/
+6) TEst deliverables 
+7) Staffing plan 
+   web
+   android
+   iOS 
+8) Risk and Mitigation Planning 
+9) Work Schedules 
+10) Approvals 
+
+-------------------------------------------
+Test Analysis 
+
+
+QA 						vs 			QC  / Testing 
+
+process oriented 					product orineted 
+
+prevent defects						detect defects 
+
+
+--------------------------------------------------
+Day 9 : 12th June  - Thursday
+--------------------------------------------------
+
+Requirements - SRS / FRS / User Stories 
+
+
+Test Design :
+
+1) Test Scenario 
+
+a feature / functionality / journey /requirement to be tested 
+
+in simple words .. what to test ?
+
+for e.g Adactin hotel app 
+
+home page 3 scenarios
+
+i) login
+ii) registration
+iii) forgot password
+
+??????????????????????????????????????????????????????
+Assignment - 1
+??????????????????????????????????????????????????????
+Use Test Scenario template and come up with 
+TSc for Facebook home page 
+
+https://www.facebook.com/
+
+send your excel / screenshot to below email id 
+
+	flmtechteam.testing@gmail.com
+
+??????????????????????????????????????????????????????
+
+??????????????????????????????????????????????????????
+Assignment - 2
+??????????????????????????????????????????????????????
+Use Test Scenario template and come up with 
+
+https://demo.opencart.com/
+
+or
+
+https://demo.opencart.com.gr/
+
+
+send your excel / screenshot to below email id 
+
+	flmtechteam.testing@gmail.com
+
+??????????????????????????????????????????????????????
+
+
+2) Test Case
+
+A set of pre-conditions , test procedures , input test data ,
+expected behaviour of the system /application planned by tester
+to validate a functionality in a project 
+
+
+in simple words .. how to test ?
+
+
+??????????????????????????????????????????????????????
+Assignment - 3
+??????????????????????????????????????????????????????
+Use Test case template and come up with 
+
+all possible test cases for login scenario in 
+
+https://adactinhotelapp.com/
+
+send your excel / screenshot to below email id 
+
+	flmtechteam.testing@gmail.com
+
+??????????????????????????????????????????????????????
+
+--------------------------------------------------
+Day 10 : 16th June  - Monday
+--------------------------------------------------
+
+Test Management tool
+
+Cucumber Studio 
+
+https://studio.cucumberstudio.com/users/sign_in 
+
+and click sign up link 
+
+or 
+
+https://studio.cucumberstudio.com/users/sign_up
+
+yemarog305@ethsms.com
+
+enter email 
+
+and password
+
+then click "Create Account"
+
+choose "Learn BDD" -> click "Next"
+
+enter details 
+
+What is your name? Ravi
+
+What is your company name? TCS
+
+What best describes you? * QA engineer/Tester --> click "Next"
+
+
+Now, let’s create a project 
+
+give some project name 
+
+AdactinHotelApp  ==> start trail 
+
+
+https://studio.cucumberstudio.com/projects/480087
+
+
+??????????????????????????????????????????????????????
+Assignment - 4
+??????????????????????????????????????????????????????
+create a Cucumber studio account and send 
+profile screenshot to below email id 
+
+	flmtechteam.testing@gmail.com
+??????????????????????????????????????????????????????	
+
+
+To write test case we are going to use "gherkin" lang 
+
+#Author: your.email@your.domain.com
+#Keywords Summary :
+#Feature: List of scenarios.
+#Scenario: Business rule through list of steps with arguments.
+#Given: Some precondition step
+#When: Some key actions
+#Then: To observe outcomes or validation
+#And,But: To enumerate more Given,When,Then steps
+#Scenario Outline: List of steps for data-driven as an Examples and <placeholder>
+#Examples: Container for s table
+#Background: List of steps run before each of the scenarios
+#""" (Doc Strings)
+#| (Data Tables)
+#@ (Tags/Labels):To group Scenarios
+#<> (placeholder)
+#""
+## (Comments)
+#Sample Feature Definition Template
+@tag
+Feature: Title of your feature
+  I want to use this template for my feature file
+
+  @tag1
+  Scenario: Title of your scenario
+    Given I want to write a step with precondition
+    And some other precondition
+    When I complete action
+    And some other action
+    And yet another action
+    Then I validate the outcomes
+    And check more outcomes
+
+  @tag2
+  Scenario Outline: Title of your scenario outline
+    Given I want to write a step with <name>
+    When I check for the <value> in step
+    Then I verify the <status> in step
+
+    Examples: 
+      | name  | value | status  |
+      | name1 |     5 | success |
+      | name2 |     7 | Fail    |
+====================================================
+
+Feature: List of scenarios nothing but journeys or requirements or functionalities 
+
+
+older terminology				Newer teminologies
+
+	Requirements				User Stories or Features 
+		|						    |	
+	Test Scenarios			    Scenarios (here Scenarios means Test cases)	
+		|
+	Test Cases	
+	
+=============================================================
+Gherkin keywords
+
+Given: Some precondition step
+
+And : To enumerate more Given,When,Then steps
+
+When: Some key actions
+
+Then: To observe outcomes or validation
+
+
+
+??????????????????????????????????????????????????????
+Assignment - 5
+??????????????????????????????????????????????????????
+
+Write test cases or Scenarios in cucumberstudio for 
+adactinhotelapp login functionality and send your credentials 
+ below email id 
+ 
+ hint : use below credential 
+        Newpass@123369
+		
+		
+		or 
+		
+		url
+		
+		https://studio.cucumberstudio.com/projects/480087
+		
+		
+
+	flmtechteam.testing@gmail.com
+??????????????????????????????????????????????????????	
+
+--------------------------------------------------
+Day 11 : 17th June  - Tuesday
+--------------------------------------------------
+
+
+===================================================
+Test Case Design Techniques
+===================================================
+1. Equivalance Class Partitioning (ECP)
+2. Boundary value Analysis (BVA)
+3. Decission table testing 
+4. State Transition Testing
+5. Error guessing 
+
+1. Equivalance Class Partitioning (ECP)
+
+whe you have test data in groups 
+
+Possible test cases :
+
+a,b,c .....z 
+A,B,C ...Z
+0,1,2..9
+! @ $ + 
+
+
++ve TC 52 
+-ve TC > 20 ~ 72 TCs 
+
+try using ECP in below page for Password field 
+
+https://profile.oracle.com/myprofile/account/create-account.jspx
+
+2. Boundary value Analysis (BVA) 
+
+when you have test data in range of values 
+
+> < >= <= 
+
+2 value approach 
+
+3 value approach 
+
+3. Decission table testing  or Cause Effect Table or Business Rules Testing 
+
+if the output of functionality dependends on multiple
+inputs then developer might have used some logical operators 
+
+OR AND EXOR etc .. 
+                                                 n
+if there are n inputs then no of  combinations  2 
+
+4. State Transition Testing 
+
+
+--------------------------------------------------
+Day 12 : 18th June  - Wednesday
+--------------------------------------------------
+
+5. Error guessing  
+
+this is mainly based on experience of guessuing errors 
+in edge cases 
+
+napave9528@finfave.com
+
+
+??????????????????????????????????????????????????????
+Assignment - 0
+??????????????????????????????????????????????????????
+
+Use Decission table testing for registration functionality
+
+in AdactinHotelApp
+
+
+flmtechteam.testing@gmail.com
+
+we can't test all combinations , it will become exhaustive testing 
+
+you can skip this assignment
+
+???????????????????????????????????????????????????????
+
+?????????????????????????????????????????????????????
+Assignment - 6
+?????????????????????????????????????????????????????
+In Food delivery App , after login 
+
+for Existing Customer    15% off 		
+    New Customer         30 % off    
+	coupon               20 % off 
+	
+	hint : 3 inputs so 8 combinations 
+	
+use decission table testing to write test cases (table is enough)
+	
+flmtechteam.testing@gmail.com
+??????????????????????????????????????????????????????
+
+?????????????????????????????????????????????????????
+Assignment - 7
+?????????????????????????????????????????????????????
+
+Use state  transition testing for end- to-end testing 
+i.e from login page to booking confirmation page 
+
+of adactinhotelapp 
+
+flmtechteam.testing@gmail.com
+
+???????????????????????????????????????????????????????
+
+
+===============================
+Test Execution
+===============================
+
+
+--------------------------------------------------
+Day 13 : 19th June  - Thursday
+--------------------------------------------------
+
+In todays class we will discuss 
+all the assignments given so  far 
+
+
+--------------------------------------------------
+Day 14 : 20th June  - Friday
+--------------------------------------------------
+
+Test Execution : 
+
+1. Build deployment
+2. Build Acceptance testing (Smoke testing) 
+3. Executing Test cases 
+4. Document and report defects 
+5. conduct retesting 
+6. conduct regression testing 
+7. conduct end-to-end testing 
+
+1. Build deployment :
+
+after WBT (white box testing) , dev teams provides 2 documents 
+
+i) SRN (Software Release Notes)
+-> Dev team 
+-> testing info 
+-> build path 
+-> known issues 
+-> features devloped and versioning 
+
+ii) Deployment Document (DD) 
+installation produces 
+
+---------------------------------------
+Defect Template :
+
+Defect Severity : (checked by tester ) 
+this describes "Seriousness" of defect or how much impact 
+on business flow
+
+Blocker  or Show stopper
+Critical 
+Major 
+Minor
+Trivial 
+
+Defect Priority :  (checked by dev team) 
+the order in which defect to be fixed 
+
+P0 [high]
+P1 [medium]
+P2 [low]
+ 
+
+
+?????????????????????????????????????????????????????
+Assignment - 8
+?????????????????????????????????????????????????????
+Use defect  template and find atleast 4 defects 
+
+in build 1 of adactinhotelapp 
+
+https://adactinhotelapp.com/
+
+and send your excel to below email id
+
+flmtechteam.testing@gmail.com
+
+???????????????????????????????????????????????????????
+
+Bug or Defect Life Cycle : 
+
+--------------------------------------------------
+Day 15 : 21st June  - Saturday
+--------------------------------------------------
+
+Blocker  or Show stopper : Very High
+
+if defects indicated nothing can be proceed 
+
+e.g : Application crashed (site not reachable) , login not working 
+
+
+
+Critical :  High
+
+the basic /main functionality not working
+
+e.g Fund transfer is not work in net banking
+
+Odering product in e-commerce website 
+
+
+Major : Medium 
+
+Doesn't block major functionality but has a high impact 
+on usability or workflow 
+
+e.g "Quick tranfer to external account" is not working 
+
+
+
+Minor :  Low
+
+it causes some undesirable behaviour , but the feature / app is still functional
+
+e.g: After sending an email there is no confirmation 
+
+ii) after boooking cab there is no confirmation sms 
+
+
+Trivial :  Very Low 
+
+if there is an issue in look and feel 
+
+e.g : Spelling mistakes, alignment 
+
+-------------------------------------------------------
+Priority :
+
+P0 [high]
+
+This is to be immediately fixed 
+
+P1 [medium]
+
+this can be wait unti new version / build is create 
+
+P2 [low]
+
+before build deployment or sometimes later releases 
+ 
+
+?????????????????????????????????????????????????????
+Assignment - 9
+?????????????????????????????????????????????????????
+Use "Bug Report  Practice" excel sheet provide in 
+Frontlines media portal 
+
+and fill the sverity and priority columns 
+
+and send your excel to below email id
+
+flmtechteam.testing@gmail.com
+
+???????????????????????????????????????????????????????
+
+Metrics related to defects :
+
+Defect Density =  no of defects found 
+                  ---------------------------------------
+                  size ( no of User stories/requirements)	
+
+Defect leakage or Defect Escape Rate  =   no of defects found in UAT 
+                                          -------------------------------  x 100
+										  no of defects found in testing 
+										  
+Defect rejection rate =  no of defects rejected 									  
+                         ----------------------  x 100
+				         no of defects raised 
+						 
+						 
+--------------------------------------------------
+Day 16 : 23rd June  - Monday
+--------------------------------------------------	
+
+Test Closure :
+
+% of test cases executed =  no of test cases executed 
+                            -------------------------- * 100
+							no of test cases written 
+
+% of test cases not executed =  no of test cases not executed 
+								------------------------------ * 100
+								no of test cases written 			
+
+% of test cases passed =  	no of test cases passed 
+                            -------------------------- * 100
+							no of test cases executed 
+
+% of test cases failed =  	no of test cases failed 
+                            -------------------------- * 100
+							no of test cases executed 							
+							
+% of test cases blocked =  	no of test cases blocked 
+                            -------------------------- * 100
+							no of test cases executed 							
+							
+Defect Density =  no of defects found 
+                  ---------------------------------------
+                  size ( no of User stories/requirements)								
+				  
+
+Defect leakage or Defect Escape Rate  =   no of defects found in UAT 
+                                          -------------------------------  x 100
+										  no of defects found in testing 				  
+
+** Test Case Summary reports 
+** Defect summary reports 
+
+please practice any two of the below projects 
+
+
+https://adactinhotelapp.com/
+
+https://parabank.parasoft.com/parabank/index.htm
+
+https://demo.opencart.com.gr/
+
+https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+
+https://www.commonspirit.org/									  
+										  
+										  
+=============================================================
+Module 3 - Agile Methodology and JIRA
+=============================================================
+
+Agile 	Model / Agile Methodology / Agile Process 
+
+2001 
+
+Individuals and interactions over processes and tools
+Working software over comprehensive documentation
+Customer collaboration over contract negotiation
+Responding to change over following a plan									  
+
+It is iterative and incremental approach 
+
+Agile Principles / Agile Advantages :
+
+-> customer no need to wait for long time 
+
+-> we develop , test and release piece of software to customer
+with few features 
+
+-> we can accept / accomadate requirement changes 
+
+-> There is good communication between customer , BA , Dev team and Testers 
+
+ Agile Disadvantages :
+ 
+ 1. less focus on design
+ 2. less documentation
+ 
+Agile Frameworks :
+
+- Scrum 
+- Kanban
+- Extreme XP 
+- SAFE 
+
+Scrum Framework :
+
+Scrum is a management framework that teams use to self-organize and work towards a common goal.
+
+scrum includes group of people called "Scrum Team" or "Squad" or "pod" 
+
+sample names for Scrum Team : titans , avengers , KGF etc ..
+Normally contains 5 to 9 members
+
+ans : 18 members 
+
+1. Product Owner (PO) or Project Manager 
+2. Business Analyst (BA) 
+3. Scrum Master (SM)
+4. Soultion Architect or System Architect (SA)
+5. UX designer 
+6. Dev Team  - 8 
+    - BE (Backend) - 3 
+	- FE (FrontEnd) - 5
+	  - Web  - 2
+	  - android - 1
+	  - iOS - 2
+7. QA team ( 3)
+	 - Manual
+		- web
+		- mobile 
+		- api 
+	 - Automation
+8. Devops (1)
+9. DBs (1)
+
+
+which sprint no : 23 
+
+-----------------------------------------------------
+roles in Scrum :
+ 
+Product Owner : 
+-> represents the customer or stakeholder 
+-> defines the features of the product from customer
+-> priortize features according to business / market need or value 
+-> adjust features and priority after every iteration 
+-> accept or reject work results 
+
+--------------------------------------------------
+Day 17 : 24th June  - Tuesday
+--------------------------------------------------	
+ 
+ Business Analyst (BA)  : 
+ 
+ he/she will take inputs from client and create user stories 
+ he/she will have more business knowledge 
+ he/she will work closely with UX designers 
+ he/she will clarify all the business rules 
+ 
+ Scrum Master (SM) : 
+ 
+ - Agile process knowledge 
+ - he will be leading or facilitating the meetings 
+ - will drive all scrum ceremonies 
+ 
+ Soultion Architect or System Architect (SA) :
+ 
+ - will provide solution for user stories or features 
+ 
+ 
+ UX designer  :
+ 
+ low level designs ( figma etc ..)
+ 
+ Dev Team  
+    - BE (Backend) - 3 
+	- FE (FrontEnd) - 5
+	  - Web  - 2
+	  - android - 1
+	  - iOS - 2
+ 
+ =====================================
+ Scrum Terminologies
+ =====================================
+ -> user story : 
+  a feature / module / functionality / journey in a software app 
+  nothing but a requirement for business
+ -> Product Backlog : 
+   collection of all user stories 
+ -> Epic : 
+   collection of related user stories 
+   e.g Authentication [ login , forgot password , forgot username , change password etc ..]
+ -> sprint : 
+   period /span of time to complete a user story 
+   usually 2 - 4 weeks 
+   interview q&A : 2 weeks 
+ -> Sprint backlog : 
+    list of stories committed by dev/qa for a specific sprint 
+ -> task : activity defined to achive business requirement 
+ -> story point : rough estimation of user story 
+   fibonacci series : 1 2 3 5 8 13 ...
+   1 story point = 1 day ( 6 hours) 
+ 
+ 
+ =============================================================
+ JIRA tool - Project Management tool 
+ =============================================================
+ steps to setup or create a jira account 
+ 
+ https://www.atlassian.com/try/cloud/signup?bundle=jira-software&edition=free
+ 
+ 
+ give some email and click on "sign up"
+ 
+ cawapa2287@decodewp.com
+ 
+ ==> Add your account details
+ 
+ give some username 
+ password 
+ 
+ ==>Create a site 
+ 
+ give some unique name 
+ 
+ ==>What kind of work do you do? 
+ 
+ select "software development"
+ 
+ ==> How does your team plan to use Jira?
+ 
+ check the options of your choice 
+ 
+?????????????????????????????????????????????????????
+Assignment - 10
+?????????????????????????????????????????????????????
+create a JIRA account  
+
+and send screenshot to below email id
+
+flmtechteam.testing@gmail.com
+
+??????????????????????????????????????????????????????? 
+
+--------------------------------------------------
+Day 19 : 25th June  - Wednesday
+--------------------------------------------------
+
+https://flm2ndjune.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog
+
+ =====================================
+ Scrum Ceremonies 
+ =====================================
+ 
+ 1. Sprint Planning / Capacity planning 
+ 
+    Before Sprint  ( 1hr to 2hr)
+	
+	PO , BA , SM , Dev , QA 
+	Dev Team = 8 mem 
+	8 * 8 hrs * 10 days = 640 points or 
+	8 * 6 hrs * 10 days = 480 points or 
+	8 * 1 point * 10 days = 80 points 
+	
+	e.g 1 Dev mem is on leave for 5 days 
+	
+	8 * 8 hrs * 10 days = 640 points - 1*8hrs*5 = 600 points 
+	8 * 6 hrs * 10 days = 480 points 
+	8 * 1 point * 10 days = 80 points  - 1*1*5 = 75 points 
+	
+	from backlog , they (PO , BA , SM ) choose the stories for that capacity 
+	
+	
+	
+ 2. Scrum meeting / status call / Daily Stand up / Standup meeting 
+ 
+ Every Day (15 min to 30 min) 
+ 
+ PO , BA , SM , Dev , QA 
+ 
+ -> what you have done so far
+ -> whats the plan for tomorrow 
+ -> any blockers or impediments 
+ 
+ 3. Sprint Review / Demo 
+ 
+  on End date of sprint 
+  PO , BA , SM , Dev , QA , client / customer / stakeholders 
+  
+  Demo on the stories completed 
+ 
+ 4. Sprint Retrospective
+ 
+ After the completion ( after 1 day or later )
+ 
+ PO , BA , SM , Dev , QA
+ 
+ -> what went well in the sprint 
+ -> what doesn't went well 
+ -> what is the status of action actions 
+ 
+ 5. Sprint team refinement / backlog grooming 
+ 
+ during Sprint or any time 
+ 
+ Standard Format for User stories
+ 
+ As a [type of user], I want [an action] so that [a benefit/value] 
+ 
+ 
+ *******************************************
+ Sample User Story
+ *******************************************
+ Description
+Value statement/Narrative
+As a user on the login page I want to enter my username and password so that it can be validated and I get access to my Online Banking experience
+
+Community Link/s
+
+This section is to be populated with community links that are relevant for the feature:
+
+Visual Design
+• Link to design reference / component styling -to be filled by UX on the project
+
+
+Technical Information
+
+This section to have all the technical documentation/information - to be filled by Solution Architect
+
+
+Allowed Configurations
+
+The section details the configuration available for this feature.
+
+Acceptance Criteria
+
+Scenario: Initial Login page
+Given a user is routed to the initial login page
+When the page loads
+Then display customer visuals
+And display header verbiage “Welcome to your online banking”
+And sub verbiage “Securely sign in with your credentials”
+And a “Username” text box
+And a “Next” CTA
+And a “Having problems?” drop down
+
+Scenario: User expands the “Having problems?” drop down
+Given a user is on the initial login page
+When the user selects the “Having problems?” drop down
+Then expand the drop down
+And display a “I've forgotten my password” link - covered in Reset a a forgotten password - Submit Username 
+And a “I've forgotten my username” link - covered in Initiate Forgot Username flow 
+
+Scenario: User selects next and hasn’t entered a username
+Given a user is on the initial login page
+And hasn’t entered a username
+When the user selects the Next CTA
+Then display an inline error “This is a required field.”
+
+Scenario: User selects next and HAS entered a username
+Given a user is on the initial login page
+And has entered a username
+When the user selects the Next CTA
+Then route the user to the enter password screen
+
+Scenario: Enter password screen
+Given a user is routed to the enter password screen
+And has entered a username
+When the page loads
+Then display customer visuals
+And display header verbiage “Welcome to your online banking”
+And sub verbiage “Securely sign in with your credentials”
+And a “Password” text box with a eye icon
+And a “Sign in” CTA
+And a “Having problems?” drop down
+
+Scenario: User expands the “Having problems?” drop down
+Given a user is on the enter password screen
+When the user selects the “Having problems?” drop down
+Then expand the drop down
+And display a “I've forgotten my password” link  covered in - Reset a a forgotten password - Submit Username 
+And a “I've forgotten my username” link - covered in Initiate Forgot Username flow 
+
+Scenario: User clicks the eye icon
+Given a user is on the enter password screen
+When the user clicks the eye icon
+Then display any characters the user has entered in the password text box
+
+
+Scenario: Password displayed and User clicks the eye icon
+Given a user is on the enter password screen
+And the password is displayed
+When the user clicks the eye icon
+Then Mask any characters the user has entered in the password text box
+
+Scenario: User selects the Sign in CTA and hasn’t entered a password
+Given a user is on the enter password screen
+And has entered a password
+When the user selects the Sign in CTA
+Then display an inline error “This is a required field.”
+
+Scenario: User selects the Sign in CTA and HAS entered a password
+Given a user is on the enter password screen
+And has entered a password
+When the user selects the Sign in CTA
+Then submit to the Backend for verification
+
+Scenario: Backend returns verification failed
+Given a user has selects the Sign in CTA
+When the Backend returns that verification failed
+Then return the user to the initial login screen
+And display an inline error “Incorrect username or password. Please check your credentials and try again” 
+And allow the user to try again until the maximum (3) number of attempts has been reached, after which the user is locked (it can be unlocked using the “Forgot” flow, will be part of subsequent sprint).
+Scenario: Backend returns verification Successful
+Given a user has selects the Sign in CTA
+When the Backend returns that verification is successful
+Then route the user to the 2-step verification flow -
+ *******************************************
+ 
+---------------------------------------------------
+Day 19 : 26th June  - Thursday
+--------------------------------------------------
+
+JIRA tool :
+
+how to work on QA task 
+
+how to raise bug in JIRA 
+
+
+---------------------------------------------------
+Day 20 : 26th June  - Friday
+--------------------------------------------------
+
+Zephyr  - Test Management tool
+
+Entry Criteria 
+
+-> Requirements are signed off and finalize 
+-> Test cases and test plans written and approved/reviewed
+-> test environment is set up and stable 
+-> build should be deployed in test env 
+
+
+Exit Criteria  / when should we stop testing / when should we conclude testing 
+
+-> all planned test cases are excuted \
+-> all critical and major defects are fixed and retested
+-> no critical defects are in open state 
+-> Test coverage meets required threshold or set limit ( 95%)
+-> Test summary reports are prepared and reviewed 
+
+
+--------------------------------------
+Requirement Tracability Matrix
+--------------------------------------
+
+Requirement --> Test Scenarios --> Test Cases 
+
+Mapping requirements to corresponding use cases / test scenarios and to test cases 
+is called RTM 
+
+Feature --> User Story --> Scenarios 
+
+
+---------------------------------------------------
+Day 21 : 30th June  - Monday
+--------------------------------------------------
+
+***************************************************************
+Module 4 - SQL
+***************************************************************
+
+Database Testing 
+
+SQL Strutured Query Language 
+
+Performing operations in Front end (AUT) , validating at Backend (BE) 
+
+RDBMS - Relational DBMS 
+
+e.g : MySQL , DB2 , Oracle , Microsoft SQL Server , PostgreSQL 
+
+
+------------------------------------
+how to install and configure MQSql 
+------------------------------------
+
+->go to below page 
+  https://www.mysql.com/downloads/
+-> click on "MySQL Community (GPL) Downloads »"
+-> click on "MySQL Installer for Windows"
+
+-> click on "Download" button against
+Windows (x86, 32-bit), MSI Installer
+(mysql-installer-web-community-8.0.42.0.msi)
+
+-> click on "No thanks, just start my download."
+
+-> go to downloads 
+you can see an msi file 
+
+
+--> 
+
+to check Mysql connection and use mqsl server 
+
+C:\Program Files\MySQL\MySQL Server 8.0\bin
+
+cmd 
+
+
+C:\Program Files\MySQL\MySQL Server 8.0\bin>mysql -u root -p
+Enter password: ***********
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 20
+Server version: 8.0.42 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2025, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+
+---------------------------------------------------------------
+
+Components or Sub Languages 
+
+										SQL 
+									     |	
+		 -----------------------------------------------------------------------
+		|					|				   | 			 |			        |
+	  DDL 				   DML				 DQL **        DCL 				   TCL
+	  
+	 Definition           Manipulation		Query 		  Control			  Transaction Control 
+    - Create			 - Insert			- Select      - Grant			  - commit 
+    - Alter 			 - Update						  - revoke 			  - rollback
+	- Drop				 - Delete											  - savepoint
+	- Truncate																  - Set properties 
+	
+	
+	
+DDL : Data Definition Language
+
+Create : Database or Table 
+
+to create database :
+
+create database database-name; 
+
+to create table: 
+
+create table tablename ( coulmn1  datatype[size] [Constraint],
+			             coulmn2  datatype[size] [Constraint],
+						 :
+						 :
+						 coulmnN  datatype[size] [Constraint]);
+
+MySQL Data Types
+
+String Data Types : 
+
+VARCHAR(size) A VARIABLE length string (can contain letters, numbers, and special characters).
+here size is an integer 
+
+TEXT(size) Holds a string with a maximum length of 65,535 bytes
+
+Numeric Data Types :
+
+INT(size) :  Signed range is from -2147483648 to 2147483647
+
+DECIMAL(size, d)
+
+Date and Time Data Types :
+
+DATE
+TIMESTAMP(fsp)
+
+	
+---------------------
+Constraints
+---------------------
+1. Null 
+2. NOT NULL 
+3. UNIQUE 
+
+
+https://justinsomnia.org/2009/04/the-emp-and-dept-tables-for-mysql/
+
+
+-------------------------------
+DML	 Data Manipulation Language
+-------------------------------
+
+Insert : 
+
+insert into tablename [columnlist ] values(valuelist);
+
+
+INSERT INTO emp VALUES ('7369','SMITH','CLERK','7902','1980-12-17','800.00',NULL,'20');
+										 
+*******************************
+DQL - Data Query Language
+*******************************
+Select : to retrive data from database tables 
+
+select [all/distinct] [top n] * or columnlist from tablename 
+       [where condition]
+	   [group by column[s]]
+	   [having condition]
+	   [order by column[s]] [ASC/DESC] [LIMIT N] [OFFSET M];
+
+Note : instead of top n use limit n at the end of select statement;
+	  
+	  
+	   
+ALL : to retrive all records from specified table
+
+mysql> select all * from emp;
++-------+--------+-----------+------+------------+---------+---------+--------+
+| empno | ename  | job       | mgr  | hiredate   | sal     | comm    | deptno |
++-------+--------+-----------+------+------------+---------+---------+--------+
+|  7369 | SMITH  | CLERK     | 7902 | 1980-12-17 |  800.00 |    NULL |     20 |
+|  7499 | ALLEN  | SALESMAN  | 7698 | 1981-02-20 | 1600.00 |  300.00 |     30 |
+|  7521 | WARD   | SALESMAN  | 7698 | 1981-02-22 | 1250.00 |  500.00 |     30 |
+|  7566 | JONES  | MANAGER   | 7839 | 1981-04-02 | 2975.00 |    NULL |     20 |
+|  7654 | MARTIN | SALESMAN  | 7698 | 1981-09-28 | 1250.00 | 1400.00 |     30 |
+|  7698 | BLAKE  | MANAGER   | 7839 | 1981-05-01 | 2850.00 |    NULL |     30 |
+|  7782 | CLARK  | MANAGER   | 7839 | 1981-06-09 | 2450.00 |    NULL |     10 |
+|  7788 | SCOTT  | ANALYST   | 7566 | 1982-12-09 | 3000.00 |    NULL |     20 |
+|  7839 | KING   | PRESIDENT | NULL | 1981-11-17 | 5000.00 |    NULL |     10 |
+|  7844 | TURNER | SALESMAN  | 7698 | 1981-09-08 | 1500.00 |    0.00 |     30 |
+|  7876 | ADAMS  | CLERK     | 7788 | 1983-01-12 | 1100.00 |    NULL |     20 |
+|  7900 | JAMES  | CLERK     | 7698 | 1981-12-03 |  950.00 |    NULL |     30 |
+|  7902 | FORD   | ANALYST   | 7566 | 1981-12-03 | 3000.00 |    NULL |     20 |
+|  7934 | MILLER | CLERK     | 7782 | 1982-01-23 | 1300.00 |    NULL |     10 |
++-------+--------+-----------+------+------------+---------+---------+--------+
+14 rows in set (0.00 sec)
+
+	   
+Distinct : to retrive unique records from specified table
+
+mysql> select distinct(job)  from emp;
++-----------+
+| job       |
++-----------+
+| CLERK     |
+| SALESMAN  |
+| MANAGER   |
+| ANALYST   |
+| PRESIDENT |
++-----------+
+
+
+
+top N or limit N : 
+
+mysql> select * from emp limit 4;
++-------+-------+----------+------+------------+---------+--------+--------+
+| empno | ename | job      | mgr  | hiredate   | sal     | comm   | deptno |
++-------+-------+----------+------+------------+---------+--------+--------+
+|  7369 | SMITH | CLERK    | 7902 | 1980-12-17 |  800.00 |   NULL |     20 |
+|  7499 | ALLEN | SALESMAN | 7698 | 1981-02-20 | 1600.00 | 300.00 |     30 |
+|  7521 | WARD  | SALESMAN | 7698 | 1981-02-22 | 1250.00 | 500.00 |     30 |
+|  7566 | JONES | MANAGER  | 7839 | 1981-04-02 | 2975.00 |   NULL |     20 |
++-------+-------+----------+------+------------+---------+--------+--------+
+4 rows in set (0.00 sec)										
+									
+								
+								
+								
+INSERT INTO emp (empno, ename, job,mgr,hiredate,sal) VALUES ('7934','MILLER','CLERK','7782','1982-01-23','1300.00');
+
+sql query to find duplicate rows in a table
+
+SELECT empno, ename, job, mgr, hiredate, sal, comm, deptno, COUNT(*)
+FROM emp
+GROUP BY empno, ename, job, mgr, hiredate, sal, comm, deptno
+HAVING COUNT(*) > 1;
+								
+---------------------------------------------------
+Day 23 : 2nd July  - Wednesday
+--------------------------------------------------								
+								
+Select Query :
+
+* or columnlist 
+
+* means all colums 
+columnlist - you provide columns separated by comma
+
+mysql> select empno,ename,sal from emp;
++-------+--------+---------+
+| empno | ename  | sal     |
++-------+--------+---------+
+|  7369 | SMITH  |  800.00 |
+|  7499 | ALLEN  | 1600.00 |
+|  7521 | WARD   | 1250.00 |
+|  7566 | JONES  | 2975.00 |
+|  7654 | MARTIN | 1250.00 |
+|  7698 | BLAKE  | 2850.00 |
+|  7782 | CLARK  | 2450.00 |
+|  7788 | SCOTT  | 3000.00 |
+|  7839 | KING   | 5000.00 |
+|  7844 | TURNER | 1500.00 |
+|  7876 | ADAMS  | 1100.00 |
+|  7900 | JAMES  |  950.00 |
+|  7902 | FORD   | 3000.00 |
+|  7934 | MILLER | 1300.00 |
+|  7566 | JONES  | 2975.00 |
+|  7934 | MILLER | 1300.00 |
++-------+--------+---------+
+16 rows in set (0.00 sec)
+
+Aggregate Functions : 
+
+sum(columnname)
+
+select sum(sal) from emp;
+
+min(columnname):
+
+avg(columnname):
+
+mysql> select sum(sal) from emp;
++----------+
+| sum(sal) |
++----------+
+| 33300.00 |
++----------+
+1 row in set (0.01 sec)
+
+mysql> select min(sal) from emp;
++----------+
+| min(sal) |
++----------+
+|   800.00 |
++----------+
+1 row in set (0.01 sec)
+
+mysql> select max(sal) from emp;
++----------+
+| max(sal) |
++----------+
+|  5000.00 |
++----------+
+1 row in set (0.00 sec)
+
+mysql> select avg(sal) from emp;
++-------------+
+| avg(sal)    |
++-------------+
+| 2081.250000 |
++-------------+
+1 row in set (0.00 sec)
+
+
+count(*) 
+
+[where condition]: 
+
+comparasion operators 
+
+=  (equals)
+<>  !=   (not equal)
+>
+>=
+<
+<=
+
+mysql> select * from emp;
++-------+--------+-----------+------+------------+---------+---------+--------+
+| empno | ename  | job       | mgr  | hiredate   | sal     | comm    | deptno |
++-------+--------+-----------+------+------------+---------+---------+--------+
+|  7369 | SMITH  | CLERK     | 7902 | 1980-12-17 |  800.00 |    NULL |     20 |
+|  7499 | ALLEN  | SALESMAN  | 7698 | 1981-02-20 | 1600.00 |  300.00 |     30 |
+|  7521 | WARD   | SALESMAN  | 7698 | 1981-02-22 | 1250.00 |  500.00 |     30 |
+|  7566 | JONES  | MANAGER   | 7839 | 1981-04-02 | 2975.00 |    NULL |     20 |
+|  7654 | MARTIN | SALESMAN  | 7698 | 1981-09-28 | 1250.00 | 1400.00 |     30 |
+|  7698 | BLAKE  | MANAGER   | 7839 | 1981-05-01 | 2850.00 |    NULL |     30 |
+|  7782 | CLARK  | MANAGER   | 7839 | 1981-06-09 | 2450.00 |    NULL |     10 |
+|  7788 | SCOTT  | ANALYST   | 7566 | 1982-12-09 | 3000.00 |    NULL |     20 |
+|  7839 | KING   | PRESIDENT | NULL | 1981-11-17 | 5000.00 |    NULL |     10 |
+|  7844 | TURNER | SALESMAN  | 7698 | 1981-09-08 | 1500.00 |    0.00 |     30 |
+|  7876 | ADAMS  | CLERK     | 7788 | 1983-01-12 | 1100.00 |    NULL |     20 |
+|  7900 | JAMES  | CLERK     | 7698 | 1981-12-03 |  950.00 |    NULL |     30 |
+|  7902 | FORD   | ANALYST   | 7566 | 1981-12-03 | 3000.00 |    NULL |     20 |
+|  7934 | MILLER | CLERK     | 7782 | 1982-01-23 | 1300.00 |    NULL |     10 |
+|  7566 | JONES  | MANAGER   | 7839 | 1981-04-02 | 2975.00 |    NULL |     20 |
+|  7934 | MILLER | CLERK     | 7782 | 1982-01-23 | 1300.00 |    NULL |   NULL |
++-------+--------+-----------+------+------------+---------+---------+--------+
+16 rows in set (0.00 sec)
+
+mysql> select * from where deptno=20;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where deptno=20' at line 1
+mysql> select * from emp where deptno=10;
++-------+--------+-----------+------+------------+---------+------+--------+
+| empno | ename  | job       | mgr  | hiredate   | sal     | comm | deptno |
++-------+--------+-----------+------+------------+---------+------+--------+
+|  7782 | CLARK  | MANAGER   | 7839 | 1981-06-09 | 2450.00 | NULL |     10 |
+|  7839 | KING   | PRESIDENT | NULL | 1981-11-17 | 5000.00 | NULL |     10 |
+|  7934 | MILLER | CLERK     | 7782 | 1982-01-23 | 1300.00 | NULL |     10 |
++-------+--------+-----------+------+------------+---------+------+--------+
+3 rows in set (0.00 sec)
+
+mysql> select * from emp where deptno<>10;
++-------+--------+----------+------+------------+---------+---------+--------+
+| empno | ename  | job      | mgr  | hiredate   | sal     | comm    | deptno |
++-------+--------+----------+------+------------+---------+---------+--------+
+|  7369 | SMITH  | CLERK    | 7902 | 1980-12-17 |  800.00 |    NULL |     20 |
+|  7499 | ALLEN  | SALESMAN | 7698 | 1981-02-20 | 1600.00 |  300.00 |     30 |
+|  7521 | WARD   | SALESMAN | 7698 | 1981-02-22 | 1250.00 |  500.00 |     30 |
+|  7566 | JONES  | MANAGER  | 7839 | 1981-04-02 | 2975.00 |    NULL |     20 |
+|  7654 | MARTIN | SALESMAN | 7698 | 1981-09-28 | 1250.00 | 1400.00 |     30 |
+|  7698 | BLAKE  | MANAGER  | 7839 | 1981-05-01 | 2850.00 |    NULL |     30 |
+|  7788 | SCOTT  | ANALYST  | 7566 | 1982-12-09 | 3000.00 |    NULL |     20 |
+|  7844 | TURNER | SALESMAN | 7698 | 1981-09-08 | 1500.00 |    0.00 |     30 |
+|  7876 | ADAMS  | CLERK    | 7788 | 1983-01-12 | 1100.00 |    NULL |     20 |
+|  7900 | JAMES  | CLERK    | 7698 | 1981-12-03 |  950.00 |    NULL |     30 |
+|  7902 | FORD   | ANALYST  | 7566 | 1981-12-03 | 3000.00 |    NULL |     20 |
+|  7566 | JONES  | MANAGER  | 7839 | 1981-04-02 | 2975.00 |    NULL |     20 |
++-------+--------+----------+------+------------+---------+---------+--------+
+12 rows in set (0.00 sec)
+
+mysql> select * from emp where deptno!=10;
++-------+--------+----------+------+------------+---------+---------+--------+
+| empno | ename  | job      | mgr  | hiredate   | sal     | comm    | deptno |
++-------+--------+----------+------+------------+---------+---------+--------+
+|  7369 | SMITH  | CLERK    | 7902 | 1980-12-17 |  800.00 |    NULL |     20 |
+|  7499 | ALLEN  | SALESMAN | 7698 | 1981-02-20 | 1600.00 |  300.00 |     30 |
+|  7521 | WARD   | SALESMAN | 7698 | 1981-02-22 | 1250.00 |  500.00 |     30 |
+|  7566 | JONES  | MANAGER  | 7839 | 1981-04-02 | 2975.00 |    NULL |     20 |
+|  7654 | MARTIN | SALESMAN | 7698 | 1981-09-28 | 1250.00 | 1400.00 |     30 |
+|  7698 | BLAKE  | MANAGER  | 7839 | 1981-05-01 | 2850.00 |    NULL |     30 |
+|  7788 | SCOTT  | ANALYST  | 7566 | 1982-12-09 | 3000.00 |    NULL |     20 |
+|  7844 | TURNER | SALESMAN | 7698 | 1981-09-08 | 1500.00 |    0.00 |     30 |
+|  7876 | ADAMS  | CLERK    | 7788 | 1983-01-12 | 1100.00 |    NULL |     20 |
+|  7900 | JAMES  | CLERK    | 7698 | 1981-12-03 |  950.00 |    NULL |     30 |
+|  7902 | FORD   | ANALYST  | 7566 | 1981-12-03 | 3000.00 |    NULL |     20 |
+|  7566 | JONES  | MANAGER  | 7839 | 1981-04-02 | 2975.00 |    NULL |     20 |
++-------+--------+----------+------+------------+---------+---------+--------+
+12 rows in set (0.00 sec)
+
+mysql> select * from emp where sal > 3000;
++-------+-------+-----------+------+------------+---------+------+--------+
+| empno | ename | job       | mgr  | hiredate   | sal     | comm | deptno |
++-------+-------+-----------+------+------------+---------+------+--------+
+|  7839 | KING  | PRESIDENT | NULL | 1981-11-17 | 5000.00 | NULL |     10 |
++-------+-------+-----------+------+------------+---------+------+--------+
+1 row in set (0.00 sec)
+
+mysql> select * from emp where sal >= 3000;
++-------+-------+-----------+------+------------+---------+------+--------+
+| empno | ename | job       | mgr  | hiredate   | sal     | comm | deptno |
++-------+-------+-----------+------+------------+---------+------+--------+
+|  7788 | SCOTT | ANALYST   | 7566 | 1982-12-09 | 3000.00 | NULL |     20 |
+|  7839 | KING  | PRESIDENT | NULL | 1981-11-17 | 5000.00 | NULL |     10 |
+|  7902 | FORD  | ANALYST   | 7566 | 1981-12-03 | 3000.00 | NULL |     20 |
++-------+-------+-----------+------+------------+---------+------+--------+
+3 rows in set (0.00 sec)
+
+mysql> select * from emp where sal < 3000;
++-------+--------+----------+------+------------+---------+---------+--------+
+| empno | ename  | job      | mgr  | hiredate   | sal     | comm    | deptno |
++-------+--------+----------+------+------------+---------+---------+--------+
+|  7369 | SMITH  | CLERK    | 7902 | 1980-12-17 |  800.00 |    NULL |     20 |
+|  7499 | ALLEN  | SALESMAN | 7698 | 1981-02-20 | 1600.00 |  300.00 |     30 |
+|  7521 | WARD   | SALESMAN | 7698 | 1981-02-22 | 1250.00 |  500.00 |     30 |
+|  7566 | JONES  | MANAGER  | 7839 | 1981-04-02 | 2975.00 |    NULL |     20 |
+|  7654 | MARTIN | SALESMAN | 7698 | 1981-09-28 | 1250.00 | 1400.00 |     30 |
+|  7698 | BLAKE  | MANAGER  | 7839 | 1981-05-01 | 2850.00 |    NULL |     30 |
+|  7782 | CLARK  | MANAGER  | 7839 | 1981-06-09 | 2450.00 |    NULL |     10 |
+|  7844 | TURNER | SALESMAN | 7698 | 1981-09-08 | 1500.00 |    0.00 |     30 |
+|  7876 | ADAMS  | CLERK    | 7788 | 1983-01-12 | 1100.00 |    NULL |     20 |
+|  7900 | JAMES  | CLERK    | 7698 | 1981-12-03 |  950.00 |    NULL |     30 |
+|  7934 | MILLER | CLERK    | 7782 | 1982-01-23 | 1300.00 |    NULL |     10 |
+|  7566 | JONES  | MANAGER  | 7839 | 1981-04-02 | 2975.00 |    NULL |     20 |
+|  7934 | MILLER | CLERK    | 7782 | 1982-01-23 | 1300.00 |    NULL |   NULL |
++-------+--------+----------+------+------------+---------+---------+--------+
+13 rows in set (0.00 sec)
+
+mysql> select * from emp where sal <= 3000;
++-------+--------+----------+------+------------+---------+---------+--------+
+| empno | ename  | job      | mgr  | hiredate   | sal     | comm    | deptno |
++-------+--------+----------+------+------------+---------+---------+--------+
+|  7369 | SMITH  | CLERK    | 7902 | 1980-12-17 |  800.00 |    NULL |     20 |
+|  7499 | ALLEN  | SALESMAN | 7698 | 1981-02-20 | 1600.00 |  300.00 |     30 |
+|  7521 | WARD   | SALESMAN | 7698 | 1981-02-22 | 1250.00 |  500.00 |     30 |
+|  7566 | JONES  | MANAGER  | 7839 | 1981-04-02 | 2975.00 |    NULL |     20 |
+|  7654 | MARTIN | SALESMAN | 7698 | 1981-09-28 | 1250.00 | 1400.00 |     30 |
+|  7698 | BLAKE  | MANAGER  | 7839 | 1981-05-01 | 2850.00 |    NULL |     30 |
+|  7782 | CLARK  | MANAGER  | 7839 | 1981-06-09 | 2450.00 |    NULL |     10 |
+|  7788 | SCOTT  | ANALYST  | 7566 | 1982-12-09 | 3000.00 |    NULL |     20 |
+|  7844 | TURNER | SALESMAN | 7698 | 1981-09-08 | 1500.00 |    0.00 |     30 |
+|  7876 | ADAMS  | CLERK    | 7788 | 1983-01-12 | 1100.00 |    NULL |     20 |
+|  7900 | JAMES  | CLERK    | 7698 | 1981-12-03 |  950.00 |    NULL |     30 |
+|  7902 | FORD   | ANALYST  | 7566 | 1981-12-03 | 3000.00 |    NULL |     20 |
+|  7934 | MILLER | CLERK    | 7782 | 1982-01-23 | 1300.00 |    NULL |     10 |
+|  7566 | JONES  | MANAGER  | 7839 | 1981-04-02 | 2975.00 |    NULL |     20 |
+|  7934 | MILLER | CLERK    | 7782 | 1982-01-23 | 1300.00 |    NULL |   NULL |
++-------+--------+----------+------+------------+---------+---------+--------+
+15 rows in set (0.00 sec)
+
+mysql> select * from emp where sal Is NULL;
+Empty set (0.00 sec)
+
+mysql> select * from emp where comm Is NULL;
++-------+--------+-----------+------+------------+---------+------+--------+
+| empno | ename  | job       | mgr  | hiredate   | sal     | comm | deptno |
++-------+--------+-----------+------+------------+---------+------+--------+
+|  7369 | SMITH  | CLERK     | 7902 | 1980-12-17 |  800.00 | NULL |     20 |
+|  7566 | JONES  | MANAGER   | 7839 | 1981-04-02 | 2975.00 | NULL |     20 |
+|  7698 | BLAKE  | MANAGER   | 7839 | 1981-05-01 | 2850.00 | NULL |     30 |
+|  7782 | CLARK  | MANAGER   | 7839 | 1981-06-09 | 2450.00 | NULL |     10 |
+|  7788 | SCOTT  | ANALYST   | 7566 | 1982-12-09 | 3000.00 | NULL |     20 |
+|  7839 | KING   | PRESIDENT | NULL | 1981-11-17 | 5000.00 | NULL |     10 |
+|  7876 | ADAMS  | CLERK     | 7788 | 1983-01-12 | 1100.00 | NULL |     20 |
+|  7900 | JAMES  | CLERK     | 7698 | 1981-12-03 |  950.00 | NULL |     30 |
+|  7902 | FORD   | ANALYST   | 7566 | 1981-12-03 | 3000.00 | NULL |     20 |
+|  7934 | MILLER | CLERK     | 7782 | 1982-01-23 | 1300.00 | NULL |     10 |
+|  7566 | JONES  | MANAGER   | 7839 | 1981-04-02 | 2975.00 | NULL |     20 |
+|  7934 | MILLER | CLERK     | 7782 | 1982-01-23 | 1300.00 | NULL |   NULL |
++-------+--------+-----------+------+------------+---------+------+--------+
+12 rows in set (0.00 sec)
+
+mysql> select * from emp where comm Is NOT NULL;
++-------+--------+----------+------+------------+---------+---------+--------+
+| empno | ename  | job      | mgr  | hiredate   | sal     | comm    | deptno |
++-------+--------+----------+------+------------+---------+---------+--------+
+|  7499 | ALLEN  | SALESMAN | 7698 | 1981-02-20 | 1600.00 |  300.00 |     30 |
+|  7521 | WARD   | SALESMAN | 7698 | 1981-02-22 | 1250.00 |  500.00 |     30 |
+|  7654 | MARTIN | SALESMAN | 7698 | 1981-09-28 | 1250.00 | 1400.00 |     30 |
+|  7844 | TURNER | SALESMAN | 7698 | 1981-09-08 | 1500.00 |    0.00 |     30 |
++-------+--------+----------+------+------------+---------+---------+--------+
+4 rows in set (0.00 sec)
+
+mysql> select count(*) from emp where comm Is NOT NULL;
++----------+
+| count(*) |
++----------+
+|        4 |
++----------+
+1 row in set (0.01 sec)
+
+mysql> select * from emp ORDER BY ename;
++-------+--------+-----------+------+------------+---------+---------+--------+
+| empno | ename  | job       | mgr  | hiredate   | sal     | comm    | deptno |
++-------+--------+-----------+------+------------+---------+---------+--------+
+|  7876 | ADAMS  | CLERK     | 7788 | 1983-01-12 | 1100.00 |    NULL |     20 |
+|  7499 | ALLEN  | SALESMAN  | 7698 | 1981-02-20 | 1600.00 |  300.00 |     30 |
+|  7698 | BLAKE  | MANAGER   | 7839 | 1981-05-01 | 2850.00 |    NULL |     30 |
+|  7782 | CLARK  | MANAGER   | 7839 | 1981-06-09 | 2450.00 |    NULL |     10 |
+|  7902 | FORD   | ANALYST   | 7566 | 1981-12-03 | 3000.00 |    NULL |     20 |
+|  7900 | JAMES  | CLERK     | 7698 | 1981-12-03 |  950.00 |    NULL |     30 |
+|  7566 | JONES  | MANAGER   | 7839 | 1981-04-02 | 2975.00 |    NULL |     20 |
+|  7566 | JONES  | MANAGER   | 7839 | 1981-04-02 | 2975.00 |    NULL |     20 |
+|  7839 | KING   | PRESIDENT | NULL | 1981-11-17 | 5000.00 |    NULL |     10 |
+|  7654 | MARTIN | SALESMAN  | 7698 | 1981-09-28 | 1250.00 | 1400.00 |     30 |
+|  7934 | MILLER | CLERK     | 7782 | 1982-01-23 | 1300.00 |    NULL |     10 |
+|  7934 | MILLER | CLERK     | 7782 | 1982-01-23 | 1300.00 |    NULL |   NULL |
+|  7788 | SCOTT  | ANALYST   | 7566 | 1982-12-09 | 3000.00 |    NULL |     20 |
+|  7369 | SMITH  | CLERK     | 7902 | 1980-12-17 |  800.00 |    NULL |     20 |
+|  7844 | TURNER | SALESMAN  | 7698 | 1981-09-08 | 1500.00 |    0.00 |     30 |
+|  7521 | WARD   | SALESMAN  | 7698 | 1981-02-22 | 1250.00 |  500.00 |     30 |
++-------+--------+-----------+------+------------+---------+---------+--------+
+16 rows in set (0.00 sec)
+
+select [all/distinct] [top n] * or columnlist from tablename 
+       [where condition]
+	   [group by column[s]]
+	   [having condition]
+	   [order by column[s]] [ASC/DESC] [LIMIT N] [OFFSET M];
+
+
++--------+----------+
+
+
+Having also should be used for aggregate functions 
+
+
+								
+--------------------------------------------------
+Day 24 : 3rd July  - Thursday
+--------------------------------------------------
+
+
+Sub queries :
+
+
+
+to find 2nd highest salary in emp table 
+
+
+alias giving some temp name to table view 
+-----------------------------------------------------------------------------
+Method 1 : 
+
+select sal from ( select * from emp ORDER BY sal DESC LIMIT 2) as emp2 ORDER BY sal LIMIT 1;
+
+for nth highest sal 
+
+3rd highest
+
+ select sal from (select distinct(sal) from emp ORDER BY sal DESC LIMIT 3) as emp2 ORDER BY sal LIMIT 1;
+
+Nth highest
+
+select sal from (select distinct(sal) from emp ORDER BY sal DESC LIMIT N) as emp2 ORDER BY sal LIMIT 1; 
+-----------------------------------------------------------------------------
+Method  2: 
+
+
+for 2nd highest sal 
+ select distinct(sal) from emp ORDER BY sal DESC LIMIT 1 OFFSET 1;
+ 
+for nth highes sal 
+  select distinct(sal) from emp ORDER BY sal DESC LIMIT 1 OFFSET N-1;
+																
+-----------------------------------------------------------------------------
+
+Method 3: 
+
+mysql> select max(sal) from emp where sal <> (select max(sal) from emp);
++----------+
+| max(sal) |
++----------+
+|  3000.00 |
++----------+
+1 row in set (0.00 sec)
+
+mysql> select max(sal) from emp where sal < (select max(sal) from emp);
++----------+
+| max(sal) |
++----------+
+|  3000.00 |
++----------+
+1 row in set (0.00 sec)
+
+------------------------------------------------------------------------------
+
+mysql> select ename from emp where sal = (select sal from ( select * from emp ORDER BY sal DESC LIMIT 2) as emp2 ORDER BY sal LIMIT 1);
++-------+
+| ename |
++-------+
+| SCOTT |
+| FORD  |
++-------+
+2 rows in set (0.00 sec)
+
+*******************************************************
+JOINS
+*******************************************************
+
+used to retrieve dat from multiple tables 
+
+
+JOINS = CROSS/CARTESIAN PRODUCT + some condition 
+
+JOIN SYNTAX :
+
+SELECT Table1.column1,Table1.column2 ..,
+       Table2.column1,Table2.column2 ..
+	   FROM Table1 <join type> Table2 
+	   ON join condition ;
+ 
+1. Inner JOIN
+
+It retrieves only common records or matching records from join tables ;
+
+SELECT Table1.column1,Table1.column2 ..,
+       Table2.column1,Table2.column2 ..
+	   FROM Table1 JOIN Table2 
+	   ON join condition ;
+
+2. Left Outer JOIN
+
+3. Right Outer JOIN 
+
+4. FULL OUTER JOIN
+
+5. CROSS JOIN 
+
+--------------------------------------------------
+Day 25 : 4th July  - Friday
+--------------------------------------------------
+2. Left Outer JOIN
+
+It retrieves all records from left side table and corresponding macthing records from right side of table.
+
+SELECT Table1.column1,Table1.column2 ..,
+       Table2.column1,Table2.column2 ..
+	   FROM Table1 LEFT OUTER JOIN Table2 
+	   ON join condition ;
+
+INSERT INTO emp VALUES ('7800','Santosh','CLERK','7782','1982-01-31','1300.00',NULL,NULL);
+
+
+3. Right Outer JOIN 
+
+It retrieves all records from ride side table and corresponding macthing records from life side of table.
+
+SELECT Table1.column1,Table1.column2 ..,
+       Table2.column1,Table2.column2 ..
+	   FROM Table1 RIGHT OUTER JOIN Table2 
+	   ON join condition ;
+
+4. FULL OUTER JOIN
+
+SELECT Table1.column1,Table1.column2 ..,
+       Table2.column1,Table2.column2 ..
+	   FROM Table1 FULL OUTER JOIN Table2 
+	   ON join condition ;
+
+5. CROSS JOIN 
+																
+means Cartesian product 
+
+----------------------------------------------------
+WILD Characters :
+
+LIKE where 
+
+1)  % (percent sign)
+
+matching zero,one or more characters
+
+select * from actor where first_name LIKE 'a%';	
+
+2) _ (underscore)
+
+matches exactly one character
+
+3) square brackets [] 
+
+SELECT * from actor WHERE first_name LIKE '[CG]ARY'];
+
+matching CARY or GARY
+
+4) square brackets []  and ^ 
+
+SELECT * from actor WHERE first_name LIKE '%ARY';
+
+not matching CARY or GARY , you will get other than that like MARY 
+
+
+
+											

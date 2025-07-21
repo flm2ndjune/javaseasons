@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Calc {
 	
+	
 	//1) No return-type and no arguments
 	public void natSum1()
 	{
