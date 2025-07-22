@@ -768,4 +768,33 @@ no syntax
 implicit operation (jvm follows this)
 
 
-	
+
+--------------------------------------------------
+Day 11: 22nd July  - Tuesday   
+--------------------------------------------------	
+
+OOPs techniques or concepts 
+- object 
+- Class
+- Encapsulation
+- Polymorphism
+- Inheritance
+- Abstraction 
+
+Encapsulation : 
+
+Encapsulation in Java is a mechanism of wrapping the data (variables)
+ and code acting on the data (methods) together as a single unit.
+ 
+ every class is encapsulated 
+ 
+ Encapsulation = Data hiding + Abstraction 
+ 
+ Data Hiding :
+ 
+ tightty encapsulation using private keyword for variables 
+ 
+ 
+ 
+ 
+ The field Bank.balance is not visible
