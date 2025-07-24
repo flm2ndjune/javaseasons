@@ -798,3 +798,53 @@ Encapsulation in Java is a mechanism of wrapping the data (variables)
  
  
  The field Bank.balance is not visible
+ 
+--------------------------------------------------
+Day 12: 24th July  - Thursday   
+--------------------------------------------------	
+what is the need of this keyword ?
+
+when we have local variables same as instance variables
+local variables will dominate so to avoid this we will use "this"
+this : is a keyword cum operator
+which will replace current calling object reference 
+
+
+PrintStream :
+
+print(): this will print and cursor remains in same line 
+
+* * * * *
+* * * *
+* * *
+* *
+* 
+
+	
+		
+
+
+println():this will print and cursor will move to next 
+
+
+printf(): this will give output as per string format but cursor remains in same line 
+9 2 10
+09:02:10
+
+ public PrintStream printf(String format, Object ... args)
+ public PrintStream format(String format, Object ... args)
+
+format():same as printf 
+
+---------------------------------------------------------------------------
+Polymorphism
+---------------------------------------------------------------------------
+Poly - many
+morphs - forms 
+
+The method add(int, int) in the type Sum is not applicable for the arguments (double, double)
+
+
+The method add(int, int) in the type Sum is not applicable for the arguments (long, long)
+
+The method add(int, int) in the type Sum is not applicable for the arguments (int, int, int)
