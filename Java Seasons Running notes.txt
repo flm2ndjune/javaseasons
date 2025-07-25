@@ -781,7 +781,7 @@ OOPs techniques or concepts
 - Inheritance
 - Abstraction 
 
-Encapsulation : 
+Encapsulation : --> security 
 
 Encapsulation in Java is a mechanism of wrapping the data (variables)
  and code acting on the data (methods) together as a single unit.
@@ -848,3 +848,109 @@ The method add(int, int) in the type Sum is not applicable for the arguments (do
 The method add(int, int) in the type Sum is not applicable for the arguments (long, long)
 
 The method add(int, int) in the type Sum is not applicable for the arguments (int, int, int)
+
+ 
+--------------------------------------------------
+Day 12: 24th July  - Thursday   
+--------------------------------------------------	
+
+Polymorphism  --> flexibity 
+
+one method is available in many forms / formats
+                                bodies or logics
+								
+								
+								Polymorphism
+								
+								
+					
+					static 	                    dynamic 
+					 or							  or
+					compile time                runtime 
+					  or 		                  or
+					early binding               late binding 
+					
+			-> method overloading                 -> method overriding (this will be discussed after inheritance)
+            -> operator overloading(java doesn't support)			
+					
+					
+					
+								
+Note : binding means linking caller and called method 								
+								
+								
+method overloading : 
+
+
+method signature : method name + arguments
+
+In method overloading , in same class we will have same method names with different signatures
+
+add(double, double)
+add(int, int)
+add(int, int, int)
+add(long, long)
+
+
+method overloading --> showing variance in no of arguments 
+                   --> difference in data types 
+				   --> change in order of arguments (few cases it won't work so we don't prefer)
+				   
+				   
+				 
+void setStudentDetails(int rollNo,String name) 
+{
+
+-----
+-----
+
+}
+				 
+void setStudentDetails(String name,int rollNo) 
+{
+
+-----
+-----
+
+}
+					 
+
+????????????????????????????????????????????????
+Assignment - 3
+????????????????????????????????????????????????
+Create a Class Aadhar 
+and use method overloading to generate aadhar number 
+for different type of inputs 
+ 
+e.g of aadhar 
+
+1234 5689 4789
+
+hint : 
+
+		System.out.println((int)(Math.random()*10000)+" "+
+				(int)(Math.random()*10000)+" "+
+				(int)(Math.random()*10000));
+
+
+and send screenshot to below email id 
+flmtechteam.testing@gmail.com
+??????????????????????????????????????????????????		
+
+----------------------------------
+Constructor
+----------------------------------
+
+is a method having same name as class name 
+
+
+rules and regulations :
+
+-> must match with name of class 
+-> constructor can take arguments but doesn't have return type 
+-> constructors shouldn't have modifiers 
+->   access-specifiers    public or protected 
+                          private or default (not prefered)
+-> manual calling of constructor is not possible 
+
+								
