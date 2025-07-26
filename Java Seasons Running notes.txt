@@ -837,7 +837,7 @@ printf(): this will give output as per string format but cursor remains in same 
 format():same as printf 
 
 ---------------------------------------------------------------------------
-Polymorphism
+Polymorphism (Felxibility)
 ---------------------------------------------------------------------------
 Poly - many
 morphs - forms 
@@ -953,4 +953,20 @@ rules and regulations :
                           private or default (not prefered)
 -> manual calling of constructor is not possible 
 
-								
+ 
+--------------------------------------------------
+Day 14: 26th July  - Friday   
+--------------------------------------------------									
+
+Constructor overloading:
+
+same constructor name with different signatures in same class 
+
+--------------------------------
+Inheritance (reusability)
+--------------------------------
+
+-> Is-a relationship
+-> reusability 
+-> extends 
+
