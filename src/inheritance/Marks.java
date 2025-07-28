@@ -17,5 +17,7 @@ public class Marks extends Student {
 		System.out.println("Total marks "+(m1+m2+m3));
 		System.out.println("Average Marks "+((m1+m2+m3)/3));
 	}
+	
+	
 
 }

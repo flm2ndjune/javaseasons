@@ -970,3 +970,19 @@ Inheritance (reusability)
 -> reusability 
 -> extends 
 
+ 
+--------------------------------------------------
+Day 15: 28th July  - Monday   
+--------------------------------------------------	
+
+Method Overriding : 
+
+same method names with same signature in different classes having relationship (inheritance)
+
+hint: 
+
+Method signature: method name + parameters list 
+
+IN method overloading : Method signature is not same 
+
+In method overriding : Method signature is same 

@@ -15,4 +15,12 @@ public class Leave extends Marks {
 		System.out.println("No of leaves taken : "+(sl+cl));
 	}
 
+	@Override
+	public void getDetails()
+	{
+		System.out.println("************************");
+		System.out.println("rolll no : "+rollNo+" Student name: "+sNa);
+		System.out.println("*************************");
+	}
+	
 }
