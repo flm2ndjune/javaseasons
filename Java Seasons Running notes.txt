@@ -986,3 +986,51 @@ Method signature: method name + parameters list
 IN method overloading : Method signature is not same 
 
 In method overriding : Method signature is same 
+
+--------------------------------------------------
+Day 15: 28th July  - Monday   
+--------------------------------------------------	
+
+when child varible/method/constructor is same as parent  class varible/method/constructor
+if we want to refer parent variable in child class then we use super 
+
+======================================
+Abstraction
+======================================
+
+it shows the idea and hide implementation details 
+
+									Abstraction
+									
+									
+						Abstract class                 Interfaces 
+						(0 to 100 %)					100 % 
+Abstract class:
+
+note : we can't create object for Abstract class  						
+						
+Cannot instantiate the type Numbers						
+
+Interface :
+
+access-specifier modifier interface InterfaceName
+{
+
+//constants or Fields 
+
+
+//abstarct methods 
+
+
+}
+
+different combination :
+
+
+classes can extends Classes 
+
+classes can extends Abstract classes
+
+classes can implement Interfaces 
+
+Interfaces can extends Interface 

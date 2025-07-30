@@ -9,7 +9,7 @@ public class SuperDemo1 {
 		obj.setA(10);
 		obj.putA(20);
 		obj.getA();
-		System.out.println(obj.a);
+		//System.out.println(obj.a);
 		//System.out.println(super.a);
 		
 
