@@ -1034,3 +1034,92 @@ classes can extends Abstract classes
 classes can implement Interfaces 
 
 Interfaces can extends Interface 
+
+
+****************************************
+Java Season - 2
+****************************************
+
+--------------------------------------------------
+Day : 11th August  - Monday   
+--------------------------------------------------	
+
+Special symbol/s and it performs particular action 
+
+
+							operators
+							
+							
+							
+			Unary				Binary				Ternary
+			
+			
+			
+Unary Operators : 
+
+++			--	
+
+
+operand : a variable or value 
+
+Increment 	Decrement		
+
+
+								pre 					post
+								
+								
+				++				--					++				--	
+
+			Increment			Decrement			Increment		Decrement
+			
+a			a=a+1				a=a-1				a=a+1			a=a-1 
+			
+
+pre-Increment
+
+++var ==> evaluation or Increases the value first , then it returns 
+
+----------------------------------------------------
+Binary : applies for two operands 
+
+two operands with one operator in between
+
+----------------------------------
+Arithmetic operators (5)
+
++ - * /  % 
+
+-------------------------------------
+Relational operators (6)
+-> comparision between two variables or values
+always output is boolean (true or false)
+
+
+>  <  >= <=  ==  !=
+
+-----------------------------------------
+
+Logical operators (b/w two comparisions)
+
+&&  ||  ! 
+
+And  	
+
+------------------------------------------
+Bitwise operators(7)
+ 
+ & Bitwise AND
+ | Bitwise OR
+ ^ Bitwise XOR
+ ~ Bitwise compliment
+ << Bitwise Left Shift
+ >> Bitwise right shift
+ >>> unary right shift 
+ 
+ 
+
+
+
+
+
+			
