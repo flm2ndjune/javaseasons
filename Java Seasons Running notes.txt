@@ -1118,8 +1118,101 @@ Bitwise operators(7)
  
  
 
+--------------------------------------------------
+Day : 12th August  - Tuesday   
+--------------------------------------------------	
+
+Assignment operators 
+
+= += -= /= %= >>=  <<= (short hand operators)
 
 
+int x=10;
+int y=20;
+
+x=y;
+
+x+=10; ==> x=x+10;
+
+----------------------------------------
+Ternary operator
+or
+Conditional Operator
+or
+decision making operator
+
+syntax : 
+
+? : 
+
+expr1 ?  expr2 : expr3 ;
+
+comparision True  False 
+
+***************************************
+Control flow or flow control statements 
+****************************************
 
 
-			
+			              flow control statements 
+						  
+						  
+		decision making					iterative/looping 				jump/transfer 
+
+		- if else 						-for 							 - break 
+		- switch                        -while							 - continue 
+										-do while 						 - return 
+										-for each or Enchanced for loop 
+										
+if else : 
+
+if(condition) //condition should give you true or false ==> boolean / relational operators / logical operators 
+{
+instructions or statements;
+}
+else
+{
+instructions or statements;
+}										
+
+salary             Non-IT			IT 
+
+<=10000				10%				20%
+>10000  <=20000     20%				30%
+>20000  <=30000     30%				40%
+>30000              40%				50%
+
+
+------------------------------
+Switch Case :
+
+syntax :
+
+switch(expression/value/variable)
+{
+
+case value1: //code to executed 
+             break;
+
+case value2 : //code to executed 
+             break;
+
+default: //code for non-matching
+
+}
+
+????????????????????????????????????????????????
+Assignment - 4
+????????????????????????????????????????????????
+Create a Class BrowserLaunch 
+give options to select the browser 
+1. chrome
+2. firefox
+3. edge 
+
+use switch case launch browser as per choice  
+
+i.e if you can String as chrome then chrome browser should launch 
+
+flmtechteam.testing@gmail.com
+?????????????????????????????????????????????????????
