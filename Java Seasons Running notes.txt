@@ -1188,6 +1188,7 @@ Switch Case :
 
 syntax :
 
+int/short/byte/char/String 
 switch(expression/value/variable)
 {
 
@@ -1216,3 +1217,59 @@ i.e if you can String as chrome then chrome browser should launch
 
 flmtechteam.testing@gmail.com
 ?????????????????????????????????????????????????????
+
+
+--------------------------------------------------
+Day : 14th August  - Wednesday   
+--------------------------------------------------	
+
+Iterative or Looping statements 
+
+---------------------------
+for loop 
+
+why/when do we go for "for" loop ?
+
+Ans : if you know how many times you need to iterate the go for "for" loop
+
+syntax : 
+                    boolean
+for(intitalization;condition check;increment)
+{
+
+statements 
+}
+
+---------------------------
+while loop 
+
+
+
+why/when do we go for "while" loop ?
+
+Ans : if you are not sure how many times you need to iterate the go for "while" looping
+syntax :
+
+      boolean 
+while(condition)
+{
+
+//statements 
+
+
+}
+
+--------------------------
+do while 
+
+syntax 
+do
+{
+//statements 
+}while(condition);
+
+santosh  
+
+8985348431
+
+
