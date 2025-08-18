@@ -23,12 +23,12 @@ public class BrowserLaunching {
 
 			break;
 		case "firefox":
-			new FirefoxDriver();
+			driver=new FirefoxDriver();
 
 			break;
 
 		case "edge":
-			new EdgeDriver();
+			driver=new EdgeDriver();
 
 			break;
 

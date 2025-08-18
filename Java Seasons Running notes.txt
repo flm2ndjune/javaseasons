@@ -1162,7 +1162,7 @@ Control flow or flow control statements
 		- if else 						-for 							 - break 
 		- switch                        -while							 - continue 
 										-do while 						 - return 
-										-for each or Enchanced for loop 
+										-for each or Enchanced for loop (this will be discussed after arrays and collections)
 										
 if else : 
 
@@ -1272,4 +1272,51 @@ santosh
 
 8985348431
 
+--------------------------------------------------
+Day : 18th August  - Monday   
+--------------------------------------------------	
+Jump statements 
+
+break and continue : 
+
+break : statement 
+
+-> immediately exits the loop(for/while/do while/for each /switch)
+
+-> this will break the current and further iteration 
+
+continue : 
+-> continue will skip the particular iteration 
+
+-> skips the current iteration and continues with next iteration of the loop 
+
+Note : The loop (for/while/do while/for each /switch) does not end, just it skips the cycle 
+
+---------------------------------------------------
+Arrays 
+---------------------------------------------------
+
+array is a collection of homogenous datatypes having fixed length 
+
+syntax : 
+
+same like variable 
+
+for variable :
+
+access-specifier access-modifier data-type variableName = value ;
+
+for Array : 
+
+method 1 :
+
+access-specifier access-modifier data-type[] arrayName={value1,value2...valuen};
+
+
+length : which give no of elements in an array
+
+
+method 2: using new operator
+
+access-specifier access-modifier data-type[] arrayName=new data-type[length of array];
 
