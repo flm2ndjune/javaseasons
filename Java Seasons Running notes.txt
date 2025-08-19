@@ -1320,3 +1320,26 @@ method 2: using new operator
 
 access-specifier access-modifier data-type[] arrayName=new data-type[length of array];
 
+--------------------------------------------------
+Day 29: 19th August  - Tuesday    
+--------------------------------------------------	
+
+Limitation of arrays :
+
+1. arrays store only homogenous datatypes
+
+Type mismatch: cannot convert from double to int
+
+2. arrays's doesn't have growable nature 
+
+java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5
+	
+3. no predefined methods or logics or data structures for arrays 
+
+you need to implements by urself 
+
+e.g for searching some element , removing some element etc ..
+
+-------------------------------------
+collections in Java
+-------------------------------------

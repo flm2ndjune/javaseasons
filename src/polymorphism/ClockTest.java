@@ -16,6 +16,7 @@ public class ClockTest {
 		c1.setClock(8, 26);
 		c1.getClock();
 		
+		
 		//user 3
 		c1.setClock(9,2,55);
 		c1.getClock();
