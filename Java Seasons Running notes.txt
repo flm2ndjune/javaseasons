@@ -1340,6 +1340,70 @@ you need to implements by urself
 
 e.g for searching some element , removing some element etc ..
 
+
+--------------------------------------------------
+Day 30: 19th August  - Tuesday    
+--------------------------------------------------	
+
+
 -------------------------------------
 collections in Java
 -------------------------------------
+
+collections in Java is nothing but API 
+
+(packages --> classes and Interfaces --> methods , abstarct methods etc ..) 
+
+Iterable(I)
+
+iterator():Iterator<T> 
+
+------------------
+Collection(I):
+
+add(E):boolean --> to add an Element or Object if any datatype to collection 
+
+addAll(Collection<? extends E>):boolean 
+
+clear():void 
+
+contains(Object):boolean --> used for search operations 
+
+isEmpty():boolean --> it will return true if there are no elements in collections
+
+remove(Object):boolean --> it will remove the object from collection 
+
+size():int --> it will return no of elements present in a collection at that time 
+
+-----------------------
+List (I) : 
+
+add(int, E):void 
+
+get(int):E 
+here int means the index of element , E means the element or object present at specified index
+
+
+indexOf(Object):int 
+
+-----------------------------
+
+ArrayList(C) : 
+
+ArrayList()
+ArrayList(int)
+ArrayList(Collection<? extends E>)
+
+
+al.get(1)
+al.get(3)
+al.get(5)
+al.get(7) 
+al.get(9)
+ela iste size is  5 or  size is 10
+
+
+
+
+
+
