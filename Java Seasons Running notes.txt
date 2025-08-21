@@ -1403,7 +1403,54 @@ al.get(9)
 ela iste size is  5 or  size is 10
 
 
+--------------------------------------------------
+Day 31: 21st August  - Thursday    
+--------------------------------------------------	
 
 
 
+Set(I): 
 
+avoids duplicates 
+
+HashSet(C): 
+
+internal data structure that HashSet follow is HashMap 
+
+Hashing mechanism 
+
+
+HashMap()
+HashMap(int)
+HashMap(int, float) 
+HashMap(Map<? extends K, ? extends V>)
+
+HashSet is an unordered collection 
+
+For Each loop or Enchanced for loop :
+
+mainly used for Arrays and Collections 
+
+normal for loop 
+syntax : 
+                    boolean
+for(intitalization;condition check;increment)
+{
+
+statements 
+}
+
+for each loop 
+for(DataType someName:arryName/CollectionName)
+{
+//statements which use someName 
+}
+
+Iterator(I):
+
+hasNext():
+next():
+
+sir e roju interview avindhe valu oka task icharu sir automation code ramanru oka form ke
+ https://demoqa.com/automation-practice-form 
+ e form lo select picture undi nenu ala manage chyale sir picture ke code rayatam possible avadhu kada

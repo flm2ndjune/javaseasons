@@ -21,6 +21,8 @@ public class ArrayListDemo1 {
 		
 		al.add('a');
 		
+		al.add(5,'b');
+		
 		System.out.println(al.size());
 		
 		System.out.println(al.get(0));
