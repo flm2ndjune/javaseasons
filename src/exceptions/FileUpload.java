@@ -1,4 +1,4 @@
-package assignments;
+package exceptions;
 
 
 import java.awt.AWTException;

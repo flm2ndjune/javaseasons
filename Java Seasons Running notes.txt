@@ -1162,6 +1162,7 @@ Control flow or flow control statements
 		- if else 						-for 							 - break 
 		- switch                        -while							 - continue 
 										-do while 						 - return 
+																		 - try catch finally 
 										-for each or Enchanced for loop (this will be discussed after arrays and collections)
 										
 if else : 
@@ -1454,3 +1455,83 @@ next():
 sir e roju interview avindhe valu oka task icharu sir automation code ramanru oka form ke
  https://demoqa.com/automation-practice-form 
  e form lo select picture undi nenu ala manage chyale sir picture ke code rayatam possible avadhu kada
+
+
+--------------------------------------------------
+Day 32: 22nd August  - Friday     
+--------------------------------------------------	
+
+Exception Handling 
+
+
+
+try catch finally throw throws 
+
+Error : any incorrect human ation that produes wrong results 
+
+compilation error : 
+
+who find this error ? compiler 
+when ? during compilation
+who should rectify ? programmer / developer 
+
+
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at exceptions.ExceptionDemo1.main(ExceptionDemo1.java:11)
+
+
+Runtime Error or Exception :
+
+who find this error ?  jvm 
+when ? during runtime 
+who should rectify ? programmer / developer 
+
+how to fix ? 
+try catch finally throw throws 
+
+try -> block {}
+
+try contains the risky code (code which may give error )
+
+try
+{
+//risky code 
+}
+
+catch -> block with parameter 
+catch(parameter)
+{
+// exception handling or user friendly message 
+}
+
+root class in Exception hiererchy is Throwable(C)
+
+Throwable(C) 
+
+getMessage():String -> here String is message of exception (basically the string after : )
+
+printStackTrace():void -> this will print Exception details (message and stack info etc )
+
+toString(): String  -> this will give where Exception class is (means which package) and exception message 
+
+Exception (C) extends Throwable(C) : 
+
+Exception Classification : 
+
+one type of classification 
+
+Checked Exceptions and UnCheckedExceptions 
+
+Checked Exceptions: Exceptions which are checked by compiler 
+
+Unhandled exception type InterruptedException
+
+Unhandled exception type FileNotFoundException
+
+UnCheckedExceptions : which compiler can't find during compilation and those found by JVM during 
+execution or runtime 
+
+e.g ArithmeticException
+
+InvalidArgumentException 
+
