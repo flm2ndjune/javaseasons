@@ -1535,3 +1535,70 @@ e.g ArithmeticException
 
 InvalidArgumentException 
 
+--------------------------------------------------
+Day 33: 23rd August  - Saturday     
+--------------------------------------------------	
+
+Patterns 
+
+how to solve or approach 
+
+1) find no of lines or no of rows 
+  = no of times outer for loop will run 
+2) identify for every row no 
+    -> how many columns are there 
+	-> type of elements in column (e.g * or 1 2 etc )
+	
+3) inner for loop : what to print 	
+
+1.  *****
+    *****
+    *****
+    *****
+    *****
+	
+
+????????????????????????????????????????????????
+Assignment - 5
+????????????????????????????????????????????????
+Create a Class Patterns  
+and write methods to print the pattern from pattens.txt  file 
+(pattern no 5 to 11)
+from github 
+https://github.com/flm2ndjune/javaseasons/blob/master/patterns.txt
+
+flmtechteam.testing@gmail.com
+?????????????????????????????????????????????????????
+
+---------------------------------------------------
+Search Techniques
+---------------------------------------------------
+
+int[] arr={18,12,19,77,-1,29,50};
+
+Linear  / sequential Search : 
+
+here 77 is the target 
+
+
+----------------------------------------
+Binary Search 
+----------------------------------------
+
+int[] arr = {-18,-12,-15,16,18,22,45,89};
+
+
+target 16 
+
+1. find the middle element 
+ 
+ middle  = start + end 
+           ------------- = 0 + 7 / 2 = 3 
+		      2 
+
+
+2. check : 
+
+if target > middle ==> search in right 
+else => search in left array 
+if target ==middle ==> we found element 
