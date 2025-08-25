@@ -17,7 +17,7 @@ public class ExceptionDemo1 {
 		System.out.println("Quotient is "+x/y);
 		System.out.println("Remainder is "+x%y);
 		}
-		catch(Exception e) // not preferred to give Exception please specify the exact exception
+		catch(ArithmeticException e) // not preferred to give Exception please specify the exact exception
 		//in this case instead of Exception give exact Exception i.e ArtithmeticException
 		{
 			//System.out.println(e.getMessage());

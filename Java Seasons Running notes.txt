@@ -1420,11 +1420,11 @@ internal data structure that HashSet follow is HashMap
 
 Hashing mechanism 
 
-
-HashMap()
-HashMap(int)
-HashMap(int, float) 
-HashMap(Map<? extends K, ? extends V>)
+HashSet()  ==> capacity 16 , loading factor 75 % i.e 0.75) 
+HashSet(int)
+HashSet(int, float) ==> float here means it's a loading factor ( default 0.75 ==> 75 % )
+HashSet(int, float, boolean)
+HashSet(Collection<? extends E>)
 
 HashSet is an unordered collection 
 
@@ -1602,3 +1602,53 @@ target 16
 if target > middle ==> search in right 
 else => search in left array 
 if target ==middle ==> we found element 
+
+--------------------------------------------------
+Day 34: 25th August  - Monday     
+--------------------------------------------------	
+
+combinations of try catch finally 
+
+only try -> Invalid 
+try-catch 
+try-finally 
+try-catch-finally 
+try-catch-catch-..
+try-catch-catch-..-finally 
+
+catch(Exception e)
+		{
+			System.out.println(e.getMessage());
+			System.out.println("generic exception found ..");
+		}
+Q: when you have multiple catches under try block can we declare them as we wish
+Ans : No 
+
+we need to follow hiererchy (bottom to top) 
+
+--------------
+finally is a block
+can be follwed after try 
+or try catch 
+
+This block of code will be executed irrespective of exception 
+--------------------------------------------------------------------------
+
+Throws - Its a keyword to be used at method signature
+
+this is used to convience compiler (used only for checked exception)
+
+--------------------------------------------------------------------------
+throw : basically to throw a custome exception 
+
+????????????????????????????????????????????????
+Assignment - 6
+????????????????????????????????????????????????
+Create a Custom exception InsufficientBalanceException 
+Scenarion : 
+In BankApp , throw above exception in withdraw method 
+if the business is met 
+rule : if the withdraw amount is greater than balance   
+
+flmtechteam.testing@gmail.com
+?????????????????????????????????????????????????????
