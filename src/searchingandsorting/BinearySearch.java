@@ -17,6 +17,8 @@ public class BinearySearch {
 			System.out.println("Target not found ..");
 			
 		}
+		
+		System.out.println("target element is "+arr[index]);
 
 	}
 
