@@ -1670,3 +1670,27 @@ here we select maximum value or element and
 put it in right index 
 
 [3,1,5,4,2]
+
+--------------------------------------------------
+Day 49 : 13th September  - Saturday
+--------------------------------------------------
+
+1. Find largest Element in array
+
+int[] arr={10,25,3,45,99,7};
+
+2. Find Smallest Element in array
+
+3. Find second largest Element in array
+
+4. Find index of largest Element in array
+
+5. Find missing number in a Array (1 to n) 
+
+6. Find the frequency of each Element in an array without using collections 
+
+
+??????????????????????????????????????????
+Assignment 
+
+i). Find second Smallest Element in array
